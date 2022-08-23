@@ -1,0 +1,65 @@
+*{
+  background-color: rgb(124, 124, 225);
+}
+
+.calcu{
+  width: 320px;
+  margin: 100px auto;
+  background-color: darkorange;
+}
+
+#hasil {
+background-color: rgb(19, 221, 211);
+padding: 10px;
+font-size: 22px;
+width: 290px;
+height: 45px;
+text-align: right;
+border: 5px solid #333;
+border-radius:7px;
+}
+
+.btnDigit{
+  background-color: rgb(18, 3, 80);
+  height: 80px;
+  width: 80px;
+  color: rgb(244, 240, 240);
+  font-size: 30px;
+  border: 2px solid rgb(176, 166, 166);
+  float: left;
+  border-radius: 7px;
+}
+
+.btnDigit0{
+  background-color: rgb(18, 3, 80);
+  height: 80px;
+  width: 160px;
+  color: rgb(244, 240, 240);
+  font-size: 30px;
+  border: 2px solid rgb(176, 166, 166);
+  float: left;
+  border-radius: 7px;
+}
+
+.btnDigitequal{
+  background-color: rgb(232, 130, 20);
+  height: 80px;
+  width: 160px;
+  color: black;
+  font-size: 30px;
+  border: 2px solid red;
+  float: left;
+  border-radius: 7px;
+}
+
+.btnDigit:hover{
+  background-color: rgb(139, 202, 30);
+}
+
+.btnDigit0:hover{
+  background-color: rgb(139, 202, 30);
+}
+
+.btnDigitequal:hover{
+  background-color: green;
+}
